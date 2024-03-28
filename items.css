@@ -1,0 +1,642 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(  rgb(0,0,0,0.5) 10%,rgba(242, 114, 2, 0.5) 50%);
+    margin-right: 0px;
+    background-position: center;
+    background-size: cover;
+    height: 500vh;
+}
+
+.navbar{
+    width: 1200px;
+    height:75px;
+    margin: auto;
+
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff6300;
+    font-size:35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+
+.menu {
+    max-width: 350px;
+    float: left;
+    height: 70px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;;
+}
+
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:#ff6300;
+}
+
+
+.search {
+    width: 330px;
+    float: left;
+    margin-right: 0px;
+    margin-left: 50px; 
+
+}
+
+.srch {
+    font-family: sans-serif;
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #ff6300;
+    margin-top: 13px;
+    color: aliceblue;
+    border-right: none;
+    font-size: 14px; 
+    float: left;
+    padding: 5px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+
+
+.btn {
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    width: 70px; 
+    height: 30px; 
+    background: #ff6300;
+    border: 2px solid #ff6300;
+    margin-top: 13px;
+    color: aliceblue;
+    font-size: 12px; 
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: background-color 0.3s ease; 
+}
+
+.btn:hover {
+    background: #ffffff; 
+    color: #ff6300; 
+}
+
+.btn:focus {
+    outline: none;
+}
+
+
+.srch:focus {
+    outline: none;
+}
+
+.navbar {
+    position: relative;
+}
+
+.search {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:aliceblue;
+    position: relative;
+
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+}
+
+.content h1{
+    font-family: Georgia;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2%;
+
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff6300;
+    border:none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: aliceblue;
+}
+
+
+.content span{
+    color:#ff6300;
+    font-size: 60px;
+
+}
+
+
+
+
+.user-actions{
+    width: 400px;
+    float: right;
+    height: 90px;
+}
+
+
+.btnsingin {
+    font-family:'Lucida Sans Unicode';
+    font-weight: bold;
+    width: 130px; 
+    height: 30px; 
+    background: #ff6300;
+    border: 2px solid #ff6300;
+    margin-top: 13px;
+    margin-left: 350px;
+    margin-right: 0px;
+    color: aliceblue;
+    font-size: 12px; 
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    transition: background-color 0.3s ease; 
+
+}
+
+.btnsingin:hover {
+    background: #ffffff; 
+    color: #ff6300; 
+}
+
+.btnsingin:focus {
+    outline: none;
+}
+
+
+
+
+
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:aliceblue;
+    position: relative;
+
+
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+}
+
+.content h1{
+    font-family: Georgia;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2%;
+
+}
+  
+
+.cn {
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    width: 130px;
+    height: 30px;
+    background: #ff6300;
+    border: 2px solid #ff6300;
+    margin-top: 40px; 
+    margin-left: 100px;
+    color: aliceblue;
+    font-size: 28px;
+    border-radius: 15px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cn:hover {
+    background: #ffffff; 
+    color: #ff6300; 
+}
+
+.cn:focus {
+    outline: none;
+}
+
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+
+    letter-spacing: 0.8px;
+    line-height: 30px;
+
+}
+
+
+.categories .small .row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px; 
+    margin-left: 200px; 
+    margin-right: 200px;
+}
+
+.categories .small .col-1,
+.categories .small .col-2,
+.categories .small .col-3{
+
+    flex: 1;
+    margin-right: 50px; 
+    margin-left: 50px;
+    margin: 0 10px;
+}
+
+.categories .small img {
+    width: 100%;
+    height: auto;
+}
+.small .col-4 {
+    flex-basis: calc(25% - 20px); 
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    flex: 1;
+    margin: 10px; 
+    width: 90px;
+    transition: transform 0.5s;
+}
+.col-4:hover{
+    transform: translateY(-9px);
+}
+
+
+.small .col-4 img{
+    width: 100%;
+    height: auto;
+}
+.small .row {
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 0 1px; 
+    justify-content: space-between; 
+
+}
+
+
+.small .col-4 p {
+    font-size: 20px;
+    color: #ff6300; 
+    font-weight: bold;
+    text-align: left; 
+
+}
+.small .col-4 h4 {
+    font-size: 20px;
+    color: #000000; 
+    font-weight: bold;
+    text-align: left; 
+
+}
+
+.tit{
+        text-align: center; 
+        margin-top: 50px; 
+        position: relative;
+font-size: 40px;
+line-height: 100px;
+        font-weight: bold;
+
+
+}
+.tit::after{
+    content:'';
+    background: #ff6300;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+
+
+}
+
+
+@media only screen and (max-width:600px) {
+.row {
+    text-align: center;
+
+}    
+.col-1, .col-2, .col-3, .col-4{
+    flex-basis: 100%;
+
+}
+}
+
+
+.small{
+    float: right;
+    margin-right: 0px; 
+}
+
+
+.row-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+    position: fixed;
+    right: 0;
+    top: 30%;
+    transform: translateY(-50%);
+}
+.row-2 select {
+    margin-left: 10px; 
+}
+
+select {
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+
+select:focus {
+    outline: none;
+}
+
+
+.page-btn{
+    margin: 0 auto 80px;
+
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    
+
+}
+.page-btn span:hover{
+    background: #ff523b;
+    color:#ffffff;
+
+}
+
+.account-page{
+    padding: 50px 0;
+
+}
+.form-container{
+    background: #ffffff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px;
+    overflow: hidden;
+}
+
+.btnsing {
+    font-family:'Lucida Sans Unicode';
+    font-weight: bold;
+    width: 130px; 
+    height: 30px; 
+    background: #ff6300;
+    border: 2px solid #ff6300;
+
+    color: aliceblue;
+    font-size: 12px; 
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    transition: background-color 0.3s ease; 
+
+}
+
+.btnsing:hover {
+    background: #ffffff; 
+    color: #ff6300; 
+}
+
+.btnsing:focus {
+    outline: none;
+}
+
+
+.form-container span{
+    font-family:'Lucida Sans Unicode';
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.form-btn{
+    display: inline-block;
+
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+
+}
+
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+
+
+}
+
+form .btn{
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+
+}
+
+#SingInForm{
+    left: -300px;
+
+}
+
+#SingUpForm{
+    left: 0px;
+}
+
+form a{
+    font-size: 12px;
+}
+
+#Indicator{
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+
+}
+
+.product-detail .col-lg-6 img{
+    padding: 0;
+
+
+}
+.product-detail .col-lg-6 {
+    padding: 20px;
+    
+}
+
+.product-detail h4 {
+    font-family:'Lucida Sans Unicode';
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.product-detail select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.product-detail input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+    margin-top: 20px;
+}
+
+input:focus{
+    outline: none;
+
+}
+.product-detail h3{
+   font-size: 25px;
+   font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.btnadd{
+    font-family:'Lucida Sans Unicode';
+    font-weight: bold;
+    width: 200px; 
+    height: 50px; 
+    background: #ff6300;
+    border: 2px solid #ff6300;
+    
+    color: aliceblue;
+    font-size: 12px; 
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    transition: background-color 0.3s ease; 
+}
+.btnsbtnadd:hover {
+    background: #ffffff; 
+    color: #ff6300; 
+}
+
+.btnadd:focus {
+    outline: none;
+}
+
+
